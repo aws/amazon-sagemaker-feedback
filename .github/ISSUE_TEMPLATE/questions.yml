@@ -1,0 +1,50 @@
+name: Ask a Question
+description: Use this form to request an answer for a question.
+labels: 'questions'
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to submit a question! Fill out the form below to provide us with information.
+- type: dropdown
+  attributes:
+    label: Product Category
+    description: Which SageMaker Product is this question for?
+    multiple: true
+    options:
+      - AutoML
+      - Clusters
+      - Data Wrangler
+      - Experiments
+      - Feature Store
+      - Inference and Endpoints
+      - JumpStart
+      - Jobs
+      - Models
+      - Pipelines
+      - Projects
+      - Quickstart Solutions
+      - Running Instances
+      - Scheduled Notebook Jobs
+      - JupyterLab
+      - RStudio
+      - Canvas
+      - TensorBoard
+      - Profiler
+      - Geospatial   
+      - Other
+  validations:
+    required: false
+
+- type: textarea
+  attributes:
+    label: Question
+    description: Describe the question in as much detail as possible.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Other Details
+    description: Describe any other relevant details, useful links etc.
+  validations:
+    required: false

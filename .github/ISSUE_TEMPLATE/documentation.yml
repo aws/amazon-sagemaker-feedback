@@ -1,0 +1,64 @@
+name: Report a Documentation Issue
+description: Use this form to submit a documentation-related issue.
+labels: 'documentation'
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to submit a documentation issue! Fill out the form below to provide us with info.
+- type: dropdown
+  attributes:
+    label: Product Category
+    description: Which SageMaker Product does this issue apply to?
+    multiple: true
+    options:
+      - AutoML
+      - Clusters
+      - Data Wrangler
+      - Experiments
+      - Feature Store
+      - Inference and Endpoints
+      - JumpStart
+      - Jobs
+      - Models
+      - Pipelines
+      - Projects
+      - Quickstart Solutions
+      - Running Instances
+      - Scheduled Notebook Jobs
+      - JupyterLab
+      - RStudio
+      - Canvas
+      - TensorBoard
+      - Profiler
+      - Geospatial   
+      - Other
+  validations:
+    required: true
+- type: dropdown
+  attributes:
+    label: Feedback Category
+    description: What is the issue related to?
+    multiple: true
+    options:
+      - Clarity and Comprehensibility
+      - Accuracy and Relevance
+      - Search and Navigation
+      - Missing Examples and Tutorials
+      - Missing Documentation
+      - Visuals and Formatting
+      - Other
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Reference Link
+    description: Link to the reference documentation page if this is a documentation update request
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Details
+    description: Give as much details as possible for this request
+  validations:
+    required: true

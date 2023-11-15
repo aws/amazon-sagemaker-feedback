@@ -1,0 +1,60 @@
+name: Request a Feature
+description: Use this form to submit a feature request
+labels: 'feature-request'
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to submit a feature request! Fill out the form below to provide us with information.
+- type: checkboxes
+  attributes:
+    label: Product Version
+    description: Which SageMaker Studio version is this feature request for?
+    options:
+      - label: Amazon SageMaker Studio Classic 
+      - label: Amazon SageMaker Studio
+      - label: It is not related to SageMaker Studio
+  validations:
+    required: true
+- type: dropdown
+  attributes:
+    label: Product Category
+    description: Which SageMaker Product is this feature request for?
+    multiple: true
+    options:
+      - AutoML
+      - Clusters
+      - Data Wrangler
+      - Experiments
+      - Feature Store
+      - Inference and Endpoints
+      - JumpStart
+      - Jobs
+      - Models
+      - Pipelines
+      - Projects
+      - Quickstart Solutions
+      - Running Instances
+      - Scheduled Notebook Jobs
+      - JupyterLab
+      - RStudio
+      - Canvas
+      - TensorBoard
+      - Profiler
+      - Geospatial   
+      - Other
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Description
+    description: Describe the request.
+    placeholder: Be as descriptive as possible so that others can +1 your request if it applies to them.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Other Details
+    description: Describe any other relevant details, useful links etc.
+  validations:
+    required: false

@@ -1,0 +1,60 @@
+automl:
+    - '(AutoPilot|autopilot|automl|auto|AutoML)'
+clusters:
+    - '(Cluster|clusters)'
+data-wrangler:
+    - '(Data Wrangler|wrangler| data wrangler)'
+experiments:
+    - '(experiment|experiments|Experiments|Experiment)'
+feature-store:
+    - '(Feature|features|feature store)'
+inference-and-endpoints:
+    - '(inference|endpoints|endpoint|Inference and Endpoints)'
+jumpstart:
+    - '(jumpstart|Jumpstart)'
+jobs:
+    - '(training|Training|processing|processing|jobs|job)'
+models:
+    - '(models|model|Model Registry)'
+pipelines:
+    - '(pipeline|Pipeline|pipelines)'
+projects:
+    - '(project|projects|Projects|Project)'
+instances:
+    - '(instance|instances)'
+jupyterlab:
+    - '(jupyter|jupyter notebooks)'
+vscode:
+    - '(visual studio|vscode|vs code)'
+rstudio:
+    - '(R Studio|RStudio)'
+canvas:
+    - '(Canvas)'
+tensorboard:
+    - '(TensorBoard)'
+studio:
+    - '(Studio|studio)'
+profiler:
+    - '(Profiler|profiler)'
+geospatial:
+    - '(Geospatial)'
+userinterface:
+    - '(ui|UI| user interface| Cohesive User Interface)'
+cost&pricing:
+    - '(cost|charges|charge|fee|fees|shut|shut down|shut|price)'
+images&runtime:
+    - '(runtime|runtime customization|image|images|sagemaker distribution)'
+errorhandling:
+    - '(debugging|debug|error)'
+reliability&stability:
+    - '(reliability|stability|failing|errors|fails| fail|not)'
+latency:
+     - '(slow|startup|startup time |slowly|minutes|load |long time|long |time|laggy|start|forever)'
+servicequotas:
+     - '(resource|access|account|machine|machines|memory|limit|limited|limits )'
+config&setup:
+    - '(configuration|config|setup)'
+git-integration:
+    - '(github|git integration|github integration)'
+customer-support:
+    - '(customer|customer-support)'

@@ -1,0 +1,89 @@
+name: Report a Bug
+description: Use this form to report a bug
+labels: 'bug'
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to submit a bug! Fill out the form below to provide us with information.
+- type: checkboxes
+  attributes:
+    label: Product Version
+    description: Which SageMaker Studio version does this bug apply to?
+    options:
+      - label: Amazon SageMaker Studio Classic
+      - label: Amazon SageMaker Studio
+      - label: Issue is not related to SageMaker Studio
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Issue Description
+    description: Describe the issue in as much detail as possible.
+    placeholder: Be as descriptive as possible so that others can +1 your request if it applies to them.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Expected Behavior
+    description: Describe the expected behavior
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Observed Behavior
+    description: Describe the observed behavior
+  validations:
+    required: false
+- type: dropdown
+  attributes:
+    label: Product Category
+    description: Which SageMaker product does this bug apply to?
+    multiple: true
+    options:
+      - AutoML
+      - Clusters
+      - Data Wrangler
+      - Experiments
+      - Feature Store
+      - Inference and Endpoints
+      - JumpStart
+      - Jobs
+      - Models
+      - Pipelines
+      - Projects
+      - Quickstart Solutions
+      - Running Instances
+      - Scheduled Notebook Jobs
+      - JupyterLab
+      - RStudio
+      - Canvas
+      - TensorBoard
+      - Profiler
+      - Geospatial      
+  validations:
+    required: false
+- type: dropdown
+  attributes:
+    label: Feedback Category
+    description: What best describes the issue?
+    multiple: true
+    options:
+      - Configuration and Setup
+      - Cost and Pricing
+      - Customer Support
+      - Error Handling and Debugging
+      - GitHub Integration
+      - Images and Runtime Customization
+      - Reliability and Stability
+      - Startup Time and Latency
+      - Service Quotas     
+      - User Interface
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Other Details
+    description: Describe any other relevant details, useful links etc.
+  validations:
+    required: false
