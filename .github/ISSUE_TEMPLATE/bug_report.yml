@@ -20,7 +20,7 @@ body:
   attributes:
     label: Issue Description
     description: Describe the issue in as much detail as possible.
-    placeholder: Be as descriptive as possible so that others can +1 your request if it applies to them.
+    placeholder: Be as descriptive as possible so that others can +1 your request if it applies to them. If you think you might have additional information that you'd like to include via an attachment such as logs, please do - we'll take a look. (Remember to remove any personally-identifiable information.)
   validations:
     required: true
 - type: textarea
@@ -56,6 +56,7 @@ body:
       - Running Instances
       - Scheduled Notebook Jobs
       - JupyterLab
+      - Code-Editor
       - RStudio
       - Canvas
       - TensorBoard
