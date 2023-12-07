@@ -24,8 +24,8 @@ instances:
     - '(instance|instances)'
 jupyterlab:
     - '(jupyter|jupyter notebooks)'
-vscode:
-    - '(visual studio|vscode|vs code)'
+code-editor:
+    - '(code-editor | code editor)'
 rstudio:
     - '(R Studio|RStudio)'
 canvas:
@@ -40,21 +40,17 @@ geospatial:
     - '(Geospatial)'
 userinterface:
     - '(ui|UI| user interface| Cohesive User Interface)'
-cost&pricing:
-    - '(cost|charges|charge|fee|fees|shut|shut down|shut|price)'
 images&runtime:
     - '(runtime|runtime customization|image|images|sagemaker distribution)'
 errorhandling:
-    - '(debugging|debug|error)'
+    - '(debugging|debug)'
 reliability&stability:
-    - '(reliability|stability|failing|errors|fails| fail|not)'
+    - '(reliability|stability|failing|errors|fails|fail)'
 latency:
      - '(slow|startup|startup time |slowly|minutes|load |long time|long |time|laggy|start|forever)'
 servicequotas:
      - '(resource|access|account|machine|machines|memory|limit|limited|limits )'
 config&setup:
-    - '(configuration|config|setup)'
-git-integration:
-    - '(github|git integration|github integration)'
+    - '(configuration|config|setup| configuration and Setup)'
 customer-support:
     - '(customer|customer-support)'
