@@ -23,5 +23,5 @@ jobs:
         only-labels: "more-info-requested"
         stale-issue-message: "Greetings! It looks like this issue hasn't been active for a while. Because it has been some time since the last update on this, and in the absence of more information, we will be closing this issue soon. Please feel free to provide a comment to prevent automatic closure, or if the issue is already closed, please feel free to open a new one."
         stale-issue-label: "closing-soon"
-        days-before-stale: 45
-        days-before-close: 15
+        days-before-stale: 15
+        days-before-close: 10
