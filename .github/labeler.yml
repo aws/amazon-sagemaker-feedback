@@ -1,5 +1,5 @@
 automl:
-    - '(AutoPilot|autopilot|automl|auto|AutoML)'
+    - '(AutoPilot|autopilot|automl|AutoML)'
 clusters:
     - '(Cluster|clusters)'
 data-wrangler:
@@ -41,16 +41,16 @@ geospatial:
 userinterface:
     - '(ui|UI| user interface| Cohesive User Interface)'
 images&runtime:
-    - '(runtime|runtime customization|image|images|sagemaker distribution)'
+    - '(image|images|sagemaker distribution)'
 errorhandling:
     - '(debugging|debug)'
 reliability&stability:
     - '(reliability|stability|failing|errors|fails|fail)'
 latency:
-     - '(slow|startup|startup time |slowly|minutes|load |long time|long |time|laggy|start|forever)'
+     - '(slow|startup|startup time)'
 servicequotas:
-     - '(resource|access|account|machine|machines|memory|limit|limited|limits )'
+     - '(limit|limits )'
 config&setup:
-    - '(configuration|config|setup| configuration and Setup)'
+    - '(configuration|config)'
 customer-support:
     - '(customer|customer-support)'
