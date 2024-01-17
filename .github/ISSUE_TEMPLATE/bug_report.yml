@@ -1,11 +1,11 @@
 name: Report a Bug
-description: Use this form to report a bug
+description: Use this form to report a bug. 
 labels: 'bug'
 body:
 - type: markdown
   attributes:
     value: |
-      Thanks for taking the time to submit a bug! Fill out the form below to provide us with information.
+      Thanks for taking the time to submit a bug! Fill out the form below to provide us with information. Please do not share any personally-identifiable information here. If your issue requires account-specific information to debug, kindly create an [AWS Support Ticket](https://support.console.aws.amazon.com/support/home#/) instead. 
 - type: checkboxes
   attributes:
     label: Product Version
