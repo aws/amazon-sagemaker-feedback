@@ -33,7 +33,11 @@ canvas:
 tensorboard:
     - '(TensorBoard)'
 studio:
-    - '(Studio|studio)'
+    - '(IDE | UI)'
+code-editor:
+    -'(Code Editor | code editor| Code-Editor | Spaces)'
+jupyterlab:
+    -'(JupyterLab | jupyterlab)'
 profiler:
     - '(Profiler|profiler)'
 geospatial:
