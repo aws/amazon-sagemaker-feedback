@@ -34,10 +34,6 @@ tensorboard:
     - '(TensorBoard)'
 studio:
     - '(IDE | UI)'
-code-editor:
-    -'(Code Editor | code editor| Code-Editor | Spaces)'
-jupyterlab:
-    -'(JupyterLab | jupyterlab)'
 profiler:
     - '(Profiler|profiler)'
 geospatial:
