@@ -7,8 +7,9 @@
 
 name: Issue Labeler
 on: 
-  schedule:
-  - cron: "0 8,17 * * *"
+   issues:
+    types: [opened, edited]
+   workflow_dispatch:
     
 permissions:
   issues: write
